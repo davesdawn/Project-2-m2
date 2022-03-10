@@ -1,1 +1,7 @@
-stylesheet.css
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+button {
+	border-radius: 50px;
+}
