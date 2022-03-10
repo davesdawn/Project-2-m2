@@ -2,6 +2,35 @@
     justify-content: flex-end;
 }
 
-button {
-	border-radius: 50px;
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: 'Open Sans'
+}
+
+.main {
+	background-image: url("images/Mountain.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+    color: white;
+
+}
+
+.h1 {
+	font-size: 100px;
+	
+}
+
+.apple {
+	background-color: yellowgreen;
+	color: white;
+
+}
+
+img {
+	width: 430px;
 }
