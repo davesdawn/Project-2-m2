@@ -15,9 +15,21 @@ body, html {
 	background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
-    
     color: white;
 
+}
+
+
+.biga {
+	font-size: 30px;
+}
+
+.smalla {
+	font-size: 16px;
+}
+
+.smallb {
+	font-size: 21px;
 }
 
 .h1 {
@@ -28,9 +40,92 @@ body, html {
 .apple {
 	background-color: yellowgreen;
 	color: white;
+	height: 300px;
 
 }
 
+
 img {
 	width: 430px;
+}
+
+.info {
+	height: 400px;
+}
+
+.iphone {
+	background-color: #222222;
+	color: white;
+	height: 400px;
+
+}
+
+.gallery {
+	width: 100%;
+	
+}
+
+
+
+.unleash {
+	background-image: url("images/art.jpg");
+	height: 250px;
+	color: white;
+	background-position: center;
+    background-size: cover;
+    
+
+}
+
+.synergize {
+	background-image: url("images/crowd.jpg");
+	height: 250px;
+	color: white;
+	background-position: center;
+    background-size: cover;
+   
+}
+
+.procastinate {
+	background-image: url("images/pencil.jpg");
+	height: 250px;
+	color: white;
+	background-position: center;
+    background-size: cover;
+    
+}
+
+.btn1, .btn2, .btn4 {
+	background-color: yellowgreen;
+}
+
+.btn3 {
+	background-color: white;
+	color: black;
+}
+
+/*a:hover {
+	border: 3px solid;
+}*/
+
+.sanity {
+	height: 300px;
+}
+
+.contact {
+	background-color: yellowgreen;
+	color: 	white;
+	height: 400px;
+}
+
+.copy {
+	height: 120px;
+	
+	
+}
+
+.glyphicon-pushpin {
+	color: yellowgreen;
+	width: 32px;
+	height: 38px;
 }
