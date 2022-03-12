@@ -8,6 +8,10 @@ body, html {
 	font-family: 'Open Sans'
 }
 
+a:link {
+	text-decoration: none;
+}
+
 .main {
 	background-image: url("images/Mountain.jpg");
 	height: 100%;
@@ -19,6 +23,9 @@ body, html {
 
 }
 
+.glyphicon-fire, .logo {
+	color: yellowgreen;
+}
 
 .biga {
 	font-size: 30px;
@@ -50,22 +57,29 @@ img {
 }
 
 .info {
-	height: 400px;
+	height: 520px;
 }
 
-.iphone {
+.microphone, .iphone {
+	padding: 99px 0px;
+}
+
+.info2 {
 	background-color: #222222;
 	color: white;
-	height: 400px;
+	height: 520px;
 
 }
 
 .gallery {
 	width: 100%;
-	
+	transition: 2s;
+		
 }
 
-
+.glyphicon-pushpin, .glyphicon-apple, .glyphicon-earphone, .glyphicon-envelope {
+	font-size: 40px;
+}
 
 .unleash {
 	background-image: url("images/art.jpg");
@@ -92,7 +106,19 @@ img {
 	color: white;
 	background-position: center;
     background-size: cover;
+
     
+}
+
+.unleash:hover, .synergize:hover, .procastinate:hover {
+	transform: scale(1.0);
+	border: solid 10px rgba(192, 192, 192, 0.4);
+}
+	
+/*.images {
+	overflow: hidden;
+}*/
+
 }
 
 .btn1, .btn2, .btn4 {
@@ -104,9 +130,7 @@ img {
 	color: black;
 }
 
-/*a:hover {
-	border: 3px solid;
-}*/
+
 
 .sanity {
 	height: 300px;
@@ -128,4 +152,21 @@ img {
 	color: yellowgreen;
 	width: 32px;
 	height: 38px;
+}
+
+
+@media only screen and (max-width: 720px) {
+	.h1 {
+	font-size: 50px;
+}
+	.biga {
+	font-size: 20px;
+}
+
+.smalla, .smallb {
+	font-size: 15px;
+}
+
+.microphone, .iphone {
+	padding: 10px;
 }
