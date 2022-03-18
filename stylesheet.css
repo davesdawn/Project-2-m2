@@ -1,37 +1,32 @@
-.navbar-collapse {
-    justify-content: flex-end;
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Open Sans';
 }
 
-body, html {
-	height: 100%;
-	margin: 0;
-	font-family: 'Open Sans'
-}
+
 
 a:link {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.main {
-	background-image: url("images/Mountain.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
+.bg {
+    background-image: url('images/Mountain.jpg');
+    height: 100%;
     background-size: cover;
-    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg1 {
     color: white;
-
 }
 
-.glyphicon-fire, .logo {
-	color: yellowgreen;
-}
-
-.biga {
+.h2 {
 	font-size: 30px;
 }
 
-.smalla {
+.p1 {
 	font-size: 16px;
 }
 
@@ -41,44 +36,39 @@ a:link {
 
 .h1 {
 	font-size: 100px;
-	
+}
+
+h3 {
+    font-size: 40px;
 }
 
 .apple {
-	background-color: yellowgreen;
-	color: white;
-	height: 300px;
-
+    background-color: yellowgreen;
+    color: white;
+    height: 300px;
 }
 
-
-img {
-	width: 430px;
-}
-
-.info {
-	height: 520px;
-}
-
-.microphone, .iphone {
-	padding: 99px 0px;
+.info, .info2, .contact {
+    height: 520px;
 }
 
 .info2 {
-	background-color: #222222;
-	color: white;
-	height: 520px;
-
+    color: white;
+    background-color: #222222;
 }
 
-.gallery {
-	width: 100%;
-	transition: 2s;
-		
+.btn {
+    background-color: yellowgreen;
+    border-color: yellowgreen;
 }
 
-.glyphicon-pushpin, .glyphicon-apple, .glyphicon-earphone, .glyphicon-envelope {
-	font-size: 40px;
+.btn1 {
+    background-color: white;
+    border-color: white;
+}
+
+.bi-pin-angle-fill {
+    color: yellowgreen;
 }
 
 .unleash {
@@ -87,9 +77,7 @@ img {
 	color: white;
 	background-position: center;
     background-size: cover;
-    
-
-}
+} 
 
 .synergize {
 	background-image: url("images/crowd.jpg");
@@ -97,76 +85,31 @@ img {
 	color: white;
 	background-position: center;
     background-size: cover;
-   
 }
 
-.procastinate {
+.procrastinate {
 	background-image: url("images/pencil.jpg");
 	height: 250px;
 	color: white;
 	background-position: center;
     background-size: cover;
+}  
 
-    
-}
-
-.unleash:hover, .synergize:hover, .procastinate:hover {
+.unleash:hover, .synergize:hover, .procrastinate:hover {
 	transform: scale(1.0);
 	border: solid 10px rgba(192, 192, 192, 0.4);
 }
-	
-/*.images {
-	overflow: hidden;
-}*/
 
-}
-
-.btn1, .btn2, .btn4 {
-	background-color: yellowgreen;
-}
-
-.btn3 {
-	background-color: white;
-	color: black;
-}
-
-
-
-.sanity {
-	height: 300px;
+.outro {
+    height: 300px;
 }
 
 .contact {
-	background-color: yellowgreen;
-	color: 	white;
-	height: 400px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 25px;
 }
 
 .copy {
-	height: 120px;
-	
-	
-}
-
-.glyphicon-pushpin {
-	color: yellowgreen;
-	width: 32px;
-	height: 38px;
-}
-
-
-@media only screen and (max-width: 720px) {
-	.h1 {
-	font-size: 50px;
-}
-	.biga {
-	font-size: 20px;
-}
-
-.smalla, .smallb {
-	font-size: 15px;
-}
-
-.microphone, .iphone {
-	padding: 10px;
+    height: 120px;
 }
