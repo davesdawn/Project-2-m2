@@ -45,11 +45,11 @@ h3 {
 .apple {
     background-color: yellowgreen;
     color: white;
-    height: 300px;
+    padding: 70px;
 }
 
 .info, .info2, .contact {
-    height: 520px;
+    padding: 100px;
 }
 
 .info2 {
@@ -101,7 +101,7 @@ h3 {
 }
 
 .outro {
-    height: 300px;
+    padding: 65px;
 }
 
 .contact {
@@ -111,5 +111,22 @@ h3 {
 }
 
 .copy {
-    height: 120px;
+   padding: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.h1 {
+	font-size: 50px;
+  }
+  	.h2 {
+	font-size: 25px;
+  }
+   .apple, .info, .info2, .contact, .outro, .copy {
+  	padding: 15px;
+  }
+   .apple, .outro {
+   	justify-content: flex-start;
+   }
+   
 }
